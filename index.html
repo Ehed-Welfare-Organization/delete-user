@@ -1,24 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>User Data Deletion</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+    }
+
+    .container {
+      background: #ffffff;
+      max-width: 500px;
+      width: 90%;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .highlight {
+      background: #f5f7ff;
+      border-left: 4px solid #667eea;
+      padding: 12px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    .email {
+      display: inline-block;
+      background: #667eea;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .email:hover {
+      background: #556cd6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>User Data Deletion</h1>
+  <div class="container">
+    <h1>User Data Deletion</h1>
 
-  <p>
-    If you signed in using Google, you may request deletion of your account
-    and associated data.
-  </p>
+    <p>
+      We respect your privacy. If you have signed in using Google, you may request
+      deletion of your account and associated personal data at any time.
+    </p>
 
-  <p>
-    To request deletion, please email us at:
-    <strong>osman2065388@gmail.com</strong>
-  </p>
+    <div class="highlight">
+      <strong>How to request deletion:</strong>
+      <p>
+        Please send an email using your registered email address.
+      </p>
+      <a class="email" href="mailto:>osman2065388@gmail.com<">
+        osman2065388@gmail.com
+      </a>
+    </div>
 
-  <p>
-    All user data stored in Firebase Realtime Database and Firebase
-    Authentication will be permanently deleted within 7 days.
-  </p>
+    <p>
+      Upon request, we will permanently delete your data stored in
+      Firebase Realtime Database and Firebase Authentication.
+    </p>
+
+    <p>
+      Data deletion will be completed within <strong>7 days</strong>.
+    </p>
+
+    <footer>
+      © 2026 Your App Name. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
